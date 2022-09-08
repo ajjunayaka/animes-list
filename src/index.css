@@ -1,0 +1,27 @@
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px
+}
+nav input{
+  padding: 10px;
+  margin: auto;
+height: 30px;
+}
+.animes-list{
+  grid-template-columns: 300px 300px;
+}
+.anime{
+  background-color: aquamarine;
+}
+.anime button{
+  background-color: transparent;
+  border: none;
+}
+.anime button:active{
+  transform: scale(1.5);
+}
